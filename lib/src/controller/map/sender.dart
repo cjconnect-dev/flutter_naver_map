@@ -101,10 +101,11 @@ abstract class _NaverMapControlSender {
 
   Future<void> openLegalNotice();
 
+  Future<void> updateOptions(NaverMapViewOptions options);
+
   /*
     --- private methods ---
   */
-  Future<void> updateOptions(NaverMapViewOptions options);
 
   Future<void> _updateClusteringOptions(NaverMapClusteringOptions options);
 }

@@ -198,13 +198,14 @@ class _NaverMapControllerImpl
     await invokeMethod("openLegalNotice");
   }
 
-  /*
-    --- private methods ---
-  */
   @override
   Future<void> updateOptions(NaverMapViewOptions options) {
     return invokeMethod("updateOptions", options);
   }
+  
+  /*
+    --- private methods ---
+  */
 
   @override
   Future<void> _updateClusteringOptions(NaverMapClusteringOptions options) {
